@@ -1,0 +1,151 @@
+# Site settings
+
+url: "https://github.com/cnKruz/cnkruz.github.io"
+
+# Google tracking id
+# google-tracking-id: "UA-XXXXXXXX-X"
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "Eduardo Pavon Banos"
+title: "{ Eduardo Pavon }"
+description: "website of Eduardo Pavon, blogging mainly for tech. Opinions expressed are mine."
+keywords: "Eduardo, pavon banos, personal"
+favicon: "/img/favicon.ico"
+################
+# Header layout#
+################
+black-favicon: "/img/favicon.ico"
+background-img: "intro-bg.jpg"
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+quote: "For a human being nothing comes Naturally, We have to learn everything we do.<br><i> ~ Philip Pullman.<i/>"
+me-img: "/img/eduardo.png"
+
+# To use github profile pic uncomment the following line and replace 'user_name'
+# with your github user name.
+
+# me-img: "https://github.com/user_name.png?size=500"
+
+# To use gravatar profile pic uncomment the following line and replace 'email_hash'
+# with your gravatar profile email hash.
+# You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
+# just enter your email and it will generate the hash.
+
+# me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
+
+#######
+# Blog #
+########
+
+post-preview-words: 50
+paginate: 2
+email-share: False
+fb-share: False
+twitter-share: False
+linkedin-share: False
+reddit-share: False
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
+
+#disqus-shortname: "personal-jekyll-theme"
+
+
+############
+# Timeline #
+############
+
+events:
+  - image: "/img/timeline/KPit.webp"
+    date: "September 2020 - Today"
+    description: "Kaiser Permanete <br>Sr. iOS Developer"
+  - image: "/img/timeline/ricohLogo.svg"
+    date: "October 2019 - August 2020"
+    description: "Ricoh Innovations Corp.<br>Sr. iOS Developer"
+  - image: "/img/timeline/planetmedia.jpg"
+    date: "March 2019 - August 2019"
+    description: "Planet Media<br>Lead Mobie Developer"
+  - image: "/img/timeline/progressFive.jpg"
+    date: "March 2017 - March 2019"
+    description: "Progress Five Analizadores Progresivos de México<br>Lead Software Engineer"
+  - image: "/img/timeline/mmcLogowhiteA.jpg"
+    date: "December 2014 - March 2017"
+    description: "Multimedia Corporativa<br>Software Engineer"
+  - image: "/img/timeline/bbtechLogo.jpeg"
+    date: "January 2013 - December 2014"
+    description: "Black Box Technologies<br>iOS Developer"
+  - image: "/img/timeline/FQBuhoA.jpg"
+    date: "February 2011 - January 2013"
+    description: "FQ UNAM<br>Software Engineer"
+
+
+# First image of the Timeline
+timeline-img: "/img/timeline/daniel-uribarren-EKYWr18AekY-unsplash.jpg"
+
+###########
+# Contact #
+###########
+
+email: "epavon.iosdev@gmail.com"
+
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+author_blurb_image: "/img/author.png"
+author_blurb: "<p>I'm a Software Engineer specializing in iOS development who loves creating digital experiences that feel both intuitive and engaging.</p>
+              <p>My fascination with immersive worlds — from fantasy novels and anime to video games and 3D environments — deeply influences how I approach UI design and user experience.</p> 
+              <p>When I'm not coding, I'm usually sketching little drawings for my friends or diving into my latest learning journey.</p> 
+              <p>I enjoy experimenting with interfaces and am currently exploring audio synthesis with AudioKit, because I believe the best apps engage multiple senses.</p>
+              <p> Whether it's through clean code, thoughtful design, or just a fun doodle, I'm always looking for ways to bring a bit of creativity and personality into everything I make.</p>"
+
+ ##################
+# Social Buttons #
+##################
+
+social:
+  - icon: "github"
+    url: "https://github.com/cnKruz/"
+  - icon: "linkedin-in"
+    url: "www.linkedin.com/in/eduardopavonb"
+#  - icon: "x-twitter"
+#    url: "https://twitter.com/"
+#  - icon: "rss"
+#    url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
+
+# Sections shown in the index page
+pages_list:
+  About: "about"
+  Blog: "latest-post"
+  Timeline: "timeline"
+  Contact: "contact"
+# Exclusion list from the generated _site
+exclude:
+  - LICENSE
+  - README.md
+  - CONTRIBUTING
+  - CONTRIBUTORS
+  - scripts
+  - Dockerfile
+  - docker-compose.yml
+
+# Pagination path
+paginate_path: "blog/page:num/"
+# Enable minification SASS
+sass:
+  style: compressed
+plugins:
+  - jekyll-paginate
+  - jekyll-spaceship
+  - jekyll-sass-converter
