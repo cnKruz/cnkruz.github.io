@@ -1,6 +1,6 @@
 # Site settings
 
-url: "https://cnkruz.github.io/"
+url: "https://cnkruz.github.io"
 
 # Google tracking id
 # google-tracking-id: "UA-XXXXXXXX-X"
@@ -64,25 +64,25 @@ vkontakte-share: False
 ############
 
 events:
-  - image: "/img/timeline/KPit.jpg"
+  - image: "img/timeline/KPit.jpg"
     date: "September 2020 - Today"
     description: "Kaiser Permanete <br>Sr. iOS Developer"
-  - image: "/img/timeline/ricohLogo.svg"
+  - image: "img/timeline/ricohLogo.svg"
     date: "October 2019 - August 2020"
     description: "Ricoh Innovations Corp.<br>Sr. iOS Developer"
-  - image: "/img/timeline/planetmedia.jpg"
+  - image: "img/timeline/planetmedia.jpg"
     date: "March 2019 - August 2019"
     description: "Planet Media<br>Lead Mobie Developer"
-  - image: "/img/timeline/progressFive.jpg"
+  - image: "img/timeline/progressFive.jpg"
     date: "March 2017 - March 2019"
     description: "Progress Five Analizadores Progresivos de México<br>Lead Software Engineer"
-  - image: "/img/timeline/mmcLogowhiteA.jpg"
+  - image: "img/timeline/mmcLogowhiteA.jpg"
     date: "December 2014 - March 2017"
     description: "Multimedia Corporativa<br>Software Engineer"
-  - image: "/img/timeline/bbtechLogo.jpeg"
+  - image: "img/timeline/bbtechLogo.jpeg"
     date: "January 2013 - December 2014"
     description: "Black Box Technologies<br>iOS Developer"
-  - image: "/img/timeline/FQBuhoA.jpg"
+  - image: "img/timeline/FQBuhoA.jpg"
     date: "February 2011 - January 2013"
     description: "FQ UNAM<br>Software Engineer"
 
