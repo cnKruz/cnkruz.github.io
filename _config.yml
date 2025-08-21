@@ -64,7 +64,7 @@ vkontakte-share: False
 ############
 
 events:
-  - image: "/img/timeline/KPit.webp"
+  - image: "/img/timeline/KPit.jpg"
     date: "September 2020 - Today"
     description: "Kaiser Permanete <br>Sr. iOS Developer"
   - image: "/img/timeline/ricohLogo.svg"
