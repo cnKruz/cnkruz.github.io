@@ -12,12 +12,13 @@ url: "https://cnkruz.github.io"
 lang: "en"
 author: "Eduardo Pavon Banos"
 title: "{ Eduardo Pavon }"
-description: "website of Eduardo Pavon, blogging mainly for tech. Opinions expressed are mine."
+description: "website of Eduardo Pavon, blogging mainly for myself and my own benefit. Opinions expressed are mine."
 keywords: "Eduardo, pavon banos, personal"
 favicon: "/img/favicon.ico"
 ################
 # Header layout#
 ################
+nav-icon: "/img/adventurer.png"
 black-favicon: "/img/favicon.ico"
 background-img: "intro-bg.jpg"
 
@@ -103,7 +104,7 @@ email: "epavon.iosdev@gmail.com"
 # The author blurb goes underneath blog posts.
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
-author_blurb_image: "/img/author.png"
+author_blurb_image: "/img/ice.png"
 author_blurb: "<p>I'm a Software Engineer specializing in iOS development who loves creating digital experiences that feel both intuitive and engaging.</p>
               <p>My fascination with immersive worlds — from fantasy novels and anime to video games and 3D environments — deeply influences how I approach UI design and user experience.</p> 
               <p>When I'm not coding, I'm usually sketching little drawings for my friends or diving into my latest learning journey.</p> 
@@ -121,8 +122,8 @@ social:
     url: "www.linkedin.com/in/eduardopavonb"
 #  - icon: "x-twitter"
 #    url: "https://twitter.com/"
-#  - icon: "rss"
-#    url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
+  - icon: "rss"
+    url: "https://cnkruz.github.io/feed.xml"
 
 # Sections shown in the index page
 pages_list:
@@ -148,4 +149,3 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-spaceship
-  - jekyll-sass-converter
