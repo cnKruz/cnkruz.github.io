@@ -2,14 +2,12 @@
 layout: post
 section-type: post
 has-comments: false
-title: Installing Ruby on Mac ... Again
+title: Installing Ruby on Mac ... Again.
 category: tech
 tags: [ "ruby", "mac" ]
 ---
 
-# Installing Ruby on Mac... Again
-
-Ever since i started coding and dabbling with ruby on my mac i've been installing Ruby on my mac as most devs do, through Brew, and everything was smooth sailing... until it wasn't. somehow i managed to break my path so bad that nothing was running properly, gems were installing but i was not able to use them, a lot of loading errors, not even bundle was safe, so after an immense amount of time trying to set everything straight and back to working order, i finally gave up and went nuclear, uninstall everything and start from scratch.
+Ever since i started coding and dabbling with ruby, i've been installing Ruby on my mac as most devs do, through Brew, and everything was smooth sailing... until it wasn't. somehow i managed to break my path so bad that nothing was running properly, gems were installing but i was not able to use them, a lot of loading errors, not even bundle was safe, so after an immense amount of time trying to set everything straight and back to working order, i finally gave up and went nuclear, uninstall everything and start from scratch.
 
 I went looking through dev posts and several articles highlighting options on how to do it properly, and this is the result, documented mostly for my own benefit so i can keep track.
 
