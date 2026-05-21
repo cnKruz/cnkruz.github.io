@@ -140,6 +140,9 @@ exclude:
   - scripts
   - Dockerfile
   - docker-compose.yml
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
 
 # Pagination path
 paginate_path: "blog/page:num/"
