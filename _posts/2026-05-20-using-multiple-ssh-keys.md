@@ -3,8 +3,8 @@ layout: post
 section-type: post
 has-comments: false
 title: Using multiple ssh-keys on a single client
-category: Category
-tags: [ "ssh", "mac" ]
+category: tech
+tags: [ "ssh", "mac", "tutorial" ]
 ---
 
 When working across different projects, I usually end up setting up an SSH key to interact with a Git account through the command line or a Git client. And by “usually,” I mostly mean inside my developer bubble, where this kind of setup becomes part of the routine.
